@@ -1,0 +1,17 @@
+.text-justify {
+    text-align: justify !important;
+}
+
+.carousel-button button {
+    width: 10px !important;
+    height: 10px !important;
+}
+
+.carousel-button {
+    display: flex !important;
+    gap: 0.5rem !important;
+}
+
+.carousel-margin-bottom {
+    margin-bottom: 5rem !important;
+}
