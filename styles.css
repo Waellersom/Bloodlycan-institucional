@@ -15,3 +15,33 @@
 .carousel-margin-bottom {
     margin-bottom: 5rem !important;
 }
+
+.bg-purple {
+    background: #9F00CC !important;
+}
+
+.bg-black {
+    background: black !important;
+}
+
+.color-wine {
+    color: #611212 !important;
+}
+
+.icon-style {
+    width: 60px !important;
+    height: 60px !important;
+    transition: 0.3s ease-in !important;
+}
+
+.icon-style:hover {
+    opacity: 0.5 !important;
+}
+
+.social-media-icon {
+    transition: 0.3s ease-in !important;
+}
+
+.social-media-icon:hover {
+    opacity: 0.5 !important;
+}
