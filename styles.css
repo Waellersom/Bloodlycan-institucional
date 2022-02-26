@@ -1,47 +1,191 @@
-.text-justify {
-    text-align: justify !important;
+/* Configuração Inicial */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.carousel-button button {
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0 !important;
+}
+
+/* Header */
+
+header .logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+header .col-lg-12 h1 {
+    text-align: center;
+    font-weight: normal;
+    font-style: italic;
+    font-size: 2rem;
+}
+
+/* Section */
+
+section {
+    margin: 2rem 0;
+}
+
+/* Sinopse */
+
+.sinopse {
+    padding: 2rem 0;
+}
+
+.sinopse .col-lg-6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sinopse-text {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.sinopse-text h2, .depoimentos h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.sinopse-text p {
+    text-align: justify;
+    line-height: 1.85rem;
+}
+
+/* Depoimentos */
+
+.depoimentos h5 {
+    margin: 1.5rem 0 !important;
+    text-align: center !important;
+    font-weight: bold !important;
+    font-style: italic !important;
+    font-size: 1rem !important;
+}
+
+.depoimentos p {
+    width: 75% !important;
+    text-align: center !important;
+    font-weight: normal !important;
+    font-size: 1rem !important;
+}
+
+.depoimentos .carousel-text {
+    height: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.depoimentos .carousel-item {
+    height: 12.5rem !important;
+    margin-bottom: 4rem !important;
+}
+
+.depoimentos .carousel-button button {
     width: 10px !important;
     height: 10px !important;
 }
 
-.carousel-button {
-    display: flex !important;
-    gap: 0.5rem !important;
+.depoimentos .carousel-button {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
 }
 
-.carousel-margin-bottom {
-    margin-bottom: 5rem !important;
+/* Autora */
+
+.autora {
+    background: #9F00CC;
 }
 
-.bg-purple {
-    background: #9F00CC !important;
+.autora .col-lg-6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 4rem 0;
 }
 
-.bg-black {
-    background: black !important;
+.autora h2, .autora h3 {
+    color: white;
+    font-weight: bold;
+
 }
 
-.color-wine {
-    color: #611212 !important;
+.autora p {
+    color: white;
+    font-weight: normal;
+    text-align: justify;
+    line-height: 1.85rem;
 }
 
-.icon-style {
-    width: 60px !important;
-    height: 60px !important;
-    transition: 0.3s ease-in !important;
+/* Leia Online */
+
+.leia-online .col-lg-12 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
 }
 
-.icon-style:hover {
-    opacity: 0.5 !important;
+.leia-online h2, .leia-online h6 {
+    font-weight: bold;
 }
 
-.social-media-icon {
-    transition: 0.3s ease-in !important;
+.leia-online h6, .leia-online p {
+    font-style: italic;
+    text-align: center;
 }
 
-.social-media-icon:hover {
-    opacity: 0.5 !important;
+.leia-online img {
+    height: 60px;
+    width: 60px;
+    transition: 0.3s ease-in;
+}
+
+.leia-online img:hover {
+    opacity: 50%;
+}
+
+/* Footer */
+
+footer {
+    background: black;
+    padding: 2rem 0;
+}
+
+footer .col-lg-12 {
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+footer .social-media-icon {
+    display: flex;
+    gap: 2rem;
+}
+
+footer .social-media-icon a {
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    transition: 0.3s ease-in;
+}
+
+footer .social-media-icon a:hover {
+    opacity: 50%;
 }
