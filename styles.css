@@ -26,12 +26,6 @@ header .col-lg-12 h1 {
     font-size: 2rem;
 }
 
-/* Section */
-
-section {
-    margin: 2rem 0;
-}
-
 /* Sinopse */
 
 .sinopse {
@@ -63,6 +57,10 @@ section {
 }
 
 /* Depoimentos */
+
+.depoimentos {
+    padding: 2rem 0;
+}
 
 .depoimentos h5 {
     margin: 1.5rem 0 !important;
@@ -133,6 +131,7 @@ section {
 /* Leia Online */
 
 .leia-online .col-lg-12 {
+    padding: 2rem 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -161,7 +160,7 @@ section {
 /* Loja */
 
 .loja {
-    padding: 2rem 0;
+    padding: 4rem 0;
 }
 
 .loja .col-lg-4 {
@@ -234,6 +233,125 @@ section {
 
 .produtos a:hover {
     background: white;
+    color: black;
+}
+
+/* Saiba mais */
+
+.saiba-mais {
+    padding: 2rem 0;
+}
+
+.saiba-mais h2 {
+    font-weight: bold;
+}
+
+.saiba-mais .col-lg-12 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.saiba-mais p {
+    font-style: italic;
+}
+
+.saiba-mais a {
+    padding: 1rem 0;
+    width: 30rem;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    font-size: 1.5rem;
+    color: white;
+    transition: 0.3s ease-in;
+}
+
+.saiba-mais a p {
+    font-style: normal;
+}
+
+.saiba-mais a:hover {
+    color: white;
+    opacity: 50%;
+}
+
+/* Compartilhe */
+
+.compartilhe {
+    padding: 5rem 0;
+    background: #0082CD;
+}
+
+.compartilhe .col-lg-6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.compartilhe h2 {
+    color: white;
+    font-weight: normal;
+}
+
+.compartilhe a {
+    border: 3px solid white;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+    transition: 0.3s ease-in;
+}
+
+.compartilhe a:hover {
+    background: #FFF;
+    color: black;
+}
+
+/* Matilha */
+
+.matilha {
+    padding: 5rem 0;
+    background: url('https://i0.wp.com/bloodlycan.com/wp-content/uploads/2020/07/banner-Apoia-se-comic2.jpg?id=8112');
+}
+
+.matilha .col-lg-6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.matilha h2 {
+    color: white;
+    font-weight: normal;
+}
+
+.matilha a {
+    border: 3px solid white;
+    padding: 1rem 9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+    transition: 0.3s ease-in;
+}
+
+.matilha a:hover {
+    background: #FFF;
     color: black;
 }
 
